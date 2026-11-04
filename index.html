@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Tan | Financial Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Alex Tan, financial analyst specialising in equity research, financial modelling and risk.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="#top">Alex Tan</a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I turn financial data into decisions investors can trust.</h1>
+      <p>Financial analyst with 5 years in equity research and corporate finance. I build valuation models, track risk, and write the report that goes with them.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">View my work</a>
+        <a class="btn" href="resume.pdf">Download CV</a>
+      </div>
+    </div>
+
+    <figure class="chart" aria-label="Illustrative portfolio growth chart">
+      <svg viewBox="0 0 400 220" role="img">
+        <title>Illustrative line chart showing steady growth</title>
+        <g class="grid">
+          <line x1="0" y1="40" x2="400" y2="40"/><line x1="0" y1="90" x2="400" y2="90"/>
+          <line x1="0" y1="140" x2="400" y2="140"/><line x1="0" y1="190" x2="400" y2="190"/>
+        </g>
+        <path class="area" d="M0 170 L50 160 L100 165 L150 130 L200 138 L250 100 L300 85 L350 55 L400 40 L400 220 L0 220 Z"/>
+        <path class="line" d="M0 170 L50 160 L100 165 L150 130 L200 138 L250 100 L300 85 L350 55 L400 40"/>
+        <path class="benchmark" d="M0 175 L50 170 L100 172 L150 155 L200 158 L250 140 L300 132 L350 120 L400 112"/>
+      </svg>
+      <figcaption>
+        <span class="key key-line"></span>Model portfolio
+        <span class="key key-bench"></span>Benchmark
+        <small>Illustrative data</small>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="stats" aria-label="Career highlights">
+    <div><strong>$240M</strong><span>assets covered in research</span></div>
+    <div><strong>42</strong><span>valuation models built</span></div>
+    <div><strong>18%</strong><span>average forecast accuracy gain</span></div>
+    <div><strong>CFA L2</strong><span>candidate, 2026</span></div>
+  </section>
+
+  <section id="work" class="section">
+    <h2>Selected work</h2>
+    <div class="projects">
+      <article class="card">
+        <h3>DCF valuation of a regional bank</h3>
+        <p>Built a three-scenario discounted cash flow model and a 12-page initiation report with price target.</p>
+        <p class="result">Target price within 4% of 12-month outcome.</p>
+        <p class="tags">Excel · DCF · Sensitivity analysis</p>
+        <a href="#">Read case study</a>
+      </article>
+      <article class="card">
+        <h3>Portfolio risk dashboard</h3>
+        <p>Automated weekly Value-at-Risk and drawdown reporting for a 30-stock portfolio using Python and Power BI.</p>
+        <p class="result">Cut reporting time from 6 hours to 20 minutes.</p>
+        <p class="tags">Python · Power BI · VaR</p>
+        <a href="#">Read case study</a>
+      </article>
+      <article class="card">
+        <h3>M&amp;A comparables analysis</h3>
+        <p>Screened 60 precedent transactions to benchmark EV/EBITDA multiples for a mid-cap acquisition.</p>
+        <p class="result">Supported a deal advised at 9.2x EBITDA.</p>
+        <p class="tags">Comps · Bloomberg · PowerPoint</p>
+        <a href="#">Read case study</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="section alt">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <time>2023 – Present</time>
+        <h3>Senior Analyst, Northbridge Capital</h3>
+        <p>Lead coverage of 15 financial-sector stocks and present monthly recommendations to the investment committee.</p>
+      </li>
+      <li>
+        <time>2021 – 2023</time>
+        <h3>Financial Analyst, Meridian Advisory</h3>
+        <p>Built valuation and budgeting models for corporate clients across banking and real estate.</p>
+      </li>
+      <li>
+        <time>2019 – 2021</time>
+        <h3>Junior Analyst, Harbour Securities</h3>
+        <p>Supported the research desk with company filings analysis, earnings summaries and data cleaning.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills and tools</h2>
+    <div class="skills">
+      <div>
+        <h3>Analysis</h3>
+        <p>Financial modelling, DCF and comps valuation, scenario analysis, risk and VaR, budgeting and forecasting.</p>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <p>Excel (advanced), Python (pandas), SQL, Power BI, Bloomberg Terminal, PowerPoint.</p>
+      </div>
+      <div>
+        <h3>Credentials</h3>
+        <p>BSc Finance, CFA Level 2 candidate, FMVA certified.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Let's talk</h2>
+    <p>Open to analyst and associate roles in equity research, corporate finance and risk.</p>
+    <a class="btn primary" href="mailto:hello@example.com">Email me</a>
+    <p class="links"><a href="https://linkedin.com/in/yourname">LinkedIn</a> <a href="https://github.com/yourname">GitHub</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">© 2026 Alex Tan. Chart data is illustrative and not investment advice.</footer>
+
+</body>
+</html>
